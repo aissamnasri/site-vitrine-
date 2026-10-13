@@ -1,0 +1,33 @@
+User-agent: *
+Disallow: /private/
+Disallow: /admin/
+Disallow: /api/
+
+Allow: /$
+Allow: /carte
+Allow: /specialites
+Allow: /restaurant
+Allow: /avis
+Allow: /contact
+Allow: /mentions-legales
+Allow: /politique-de-confidentialite
+
+Sitemap: https://costakebab.fr/sitemap.xml
+
+# Crawl delay for better server performance
+Crawl-delay: 2
+
+# Googlebot specific
+User-agent: Googlebot
+Disallow: /private/
+Disallow: /admin/
+
+# Bingbot specific
+User-agent: Bingbot
+Disallow: /private/
+Disallow: /admin/
+
+# Mobile crawlers
+User-agent: Googlebot-Mobile
+Disallow: /private/
+Disallow: /admin/
