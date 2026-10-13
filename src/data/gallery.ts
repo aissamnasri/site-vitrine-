@@ -7,7 +7,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'hero-main',
     title: 'Spécialité Costa Kebab',
-    path: '/images/gallery/hero-main.jpg',
+    path: '/images/gallery/hero-main.webp',
     category: 'product',
     alt: 'Plat signature de Costa Kebab avec kebab, frites et accompagnements',
     order: 1,
@@ -17,7 +17,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'product-kebab',
     title: 'Kebab Traditionnel',
-    path: '/images/gallery/kebab-traditionnel.jpg',
+    path: '/images/gallery/kebab-traditionnel.webp',
     category: 'product',
     alt: 'Kebab traditionnel préparé avec soin',
     order: 2,
@@ -25,7 +25,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'product-tacos',
     title: 'Tacos Français',
-    path: '/images/gallery/tacos-francais.jpg',
+    path: '/images/gallery/tacos-francais.webp',
     category: 'product',
     alt: 'Tacos français garni avec viande, frites et sauce',
     order: 3,
@@ -33,7 +33,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'product-burger',
     title: 'Burger Maison',
-    path: '/images/gallery/burger-maison.jpg',
+    path: '/images/gallery/burger-maison.webp',
     category: 'product',
     alt: 'Burger maison avec steak, fromage et garnitures fraîches',
     order: 4,
@@ -41,7 +41,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'product-assiette',
     title: 'Assiette Complète',
-    path: '/images/gallery/assiette-complete.jpg',
+    path: '/images/gallery/assiette-complete.webp',
     category: 'product',
     alt: 'Assiette complète avec viande, riz et accompagnements',
     order: 5,
@@ -49,7 +49,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'product-poulet-crousty',
     title: 'Poulet Crousty',
-    path: '/images/gallery/poulet-crousty.jpg',
+    path: '/images/gallery/poulet-crousty.webp',
     category: 'product',
     alt: 'Poulet Crousty avec riz du Cambodge et sauce maison',
     order: 6,
@@ -59,7 +59,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'restaurant-exterior-1',
     title: 'Façade du Restaurant',
-    path: '/images/gallery/restaurant-exterior-1.jpg',
+    path: '/images/gallery/restaurant-exterior-1.webp',
     category: 'exterior',
     alt: 'Façade du restaurant Costa Kebab à Saint-Médard-en-Jalles',
     order: 10,
@@ -67,7 +67,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'restaurant-exterior-2',
     title: 'Entrée du Restaurant',
-    path: '/images/gallery/restaurant-exterior-2.jpg',
+    path: '/images/gallery/restaurant-exterior-2.webp',
     category: 'exterior',
     alt: 'Entrée principale de Costa Kebab',
     order: 11,
@@ -77,7 +77,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'restaurant-interior-1',
     title: 'Intérieur du Restaurant',
-    path: '/images/gallery/restaurant-interior-1.jpg',
+    path: '/images/gallery/restaurant-interior-1.webp',
     category: 'interior',
     alt: 'Salle intérieure de Costa Kebab avec comptoir',
     order: 20,
@@ -85,7 +85,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'restaurant-interior-2',
     title: 'Espace Client',
-    path: '/images/gallery/restaurant-interior-2.jpg',
+    path: '/images/gallery/restaurant-interior-2.webp',
     category: 'interior',
     alt: 'Espace client avec tables et chaises',
     order: 21,
@@ -93,7 +93,7 @@ const galleryImages: GalleryImage[] = [
   {
     id: 'restaurant-interior-3',
     title: 'Cuisine Ouverte',
-    path: '/images/gallery/restaurant-interior-3.jpg',
+    path: '/images/gallery/restaurant-interior-3.webp',
     category: 'interior',
     alt: 'Vue sur la cuisine ouverte et le grill',
     order: 22,

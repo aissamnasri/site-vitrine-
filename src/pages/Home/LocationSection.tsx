@@ -40,7 +40,7 @@ export const LocationSection = () => {
               loading="lazy"
               onError={(e) => {
                 // Fallback to a placeholder
-                (e.target as HTMLImageElement).src = '/images/map-placeholder.jpg';
+                (e.target as HTMLImageElement).src = '/images/map-placeholder.webp';
               }}
             />
             <motion.div

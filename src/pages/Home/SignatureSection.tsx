@@ -130,12 +130,12 @@ export const SignatureSection = () => {
           >
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src={siteContent.signature.image || '/images/gallery/signature-dish.jpg'}
+                src={siteContent.signature.image || '/images/gallery/signature-dish.webp'}
                 alt="Signature dish de Costa Kebab"
                 className="w-full h-full object-cover"
                 loading="lazy"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = '/images/placeholder-signature.jpg';
+                  (e.target as HTMLImageElement).src = '/images/placeholder-signature.webp';
                 }}
               />
             </div>

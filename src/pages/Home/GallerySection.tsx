@@ -68,7 +68,7 @@ export const GallerySection = () => {
                 className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 loading="lazy"
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = '/images/placeholder-gallery.jpg';
+                  (e.target as HTMLImageElement).src = '/images/placeholder-gallery.webp';
                 }}
               />
               <motion.div

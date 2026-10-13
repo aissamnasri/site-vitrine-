@@ -35,12 +35,12 @@ export const RestaurantPage = () => {
           viewport={{ once: true }}
         >
           <img
-            src="/images/restaurant/exterior-main.jpg"
+            src="/images/restaurant/exterior-main.webp"
             alt="Façade du restaurant Costa Kebab"
             className="w-full h-full object-cover"
             loading="lazy"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = '/images/placeholder-restaurant.jpg';
+              (e.target as HTMLImageElement).src = '/images/placeholder-restaurant.webp';
             }}
           />
           <motion.div
@@ -266,12 +266,12 @@ export const RestaurantPage = () => {
             transition={{ duration: 0.5, staggerChildren: 0.1 }}
           >
             {[
-              '/images/restaurant/exterior-1.jpg',
-              '/images/restaurant/exterior-2.jpg',
-              '/images/restaurant/interior-1.jpg',
-              '/images/restaurant/interior-2.jpg',
-              '/images/restaurant/interior-3.jpg',
-              '/images/restaurant/grill.jpg',
+              '/images/restaurant/exterior-1.webp',
+              '/images/restaurant/exterior-2.webp',
+              '/images/restaurant/interior-1.webp',
+              '/images/restaurant/interior-2.webp',
+              '/images/restaurant/interior-3.webp',
+              '/images/restaurant/grill.webp',
             ].map((src, index) => (
               <motion.div
                 key={index}
@@ -287,7 +287,7 @@ export const RestaurantPage = () => {
                   className="w-full h-full object-cover"
                   loading="lazy"
                   onError={(e) => {
-                    (e.target as HTMLImageElement).src = '/images/placeholder-gallery.jpg';
+                    (e.target as HTMLImageElement).src = '/images/placeholder-gallery.webp';
                   }}
                 />
                 <motion.div

@@ -21,12 +21,12 @@ export const HeroSection = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-dark-1000/60 via-dark-1000/40 to-dark-1000/80" />
         <img
-          src="/images/hero/main-dish.jpg"
+          src="/images/hero/main-dish.webp"
           alt="Spécialité Costa Kebab - Kebab, Tacos et Burgers"
           className="w-full h-full object-cover"
           loading="eager"
           onError={(e) => {
-            (e.target as HTMLImageElement).src = '/images/placeholder-hero.jpg';
+            (e.target as HTMLImageElement).src = '/images/placeholder-hero.webp';
           }}
         />
       </motion.div>

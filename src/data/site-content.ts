@@ -10,7 +10,7 @@ const siteContent: SiteContent = {
   signature: {
     title: 'UNE EXPÉRIENCE GOURMANDE UNIQUE',
     description: 'Chez Costa Kebab, nous transformons chaque repas en un moment de plaisir. Nos viandes sont sélectionnées avec soin, nos sauces sont faites maison, et chaque détail compte pour vous offrir une expérience culinaire exceptionnelle.',
-    image: '/images/hero/main-dish.jpg',
+    image: '/images/hero/main-dish.webp',
   },
   seo: {
     title: 'Costa Kebab - Restaurant & Livraison à Saint-Médard-en-Jalles',
